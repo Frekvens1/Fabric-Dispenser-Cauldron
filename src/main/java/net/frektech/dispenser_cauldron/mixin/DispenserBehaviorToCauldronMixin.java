@@ -34,10 +34,14 @@ public abstract class DispenserBehaviorToCauldronMixin extends ItemDispenserBeha
         if (stack.getItem() == Items.LAVA_BUCKET) {
             cir.setReturnValue(new ItemStack(Items.BUCKET));
             world.setBlockState(pos, Blocks.LAVA_CAULDRON.getDefaultState());
-
+        
         } else if (stack.getItem() == Items.WATER_BUCKET) {
             cir.setReturnValue(new ItemStack(Items.BUCKET));
             world.setBlockState(pos, Blocks.WATER_CAULDRON.getDefaultState().with(Properties.LEVEL_3, 3));
+
+        } else if (stack.getItem() == Items.POWDER_SNOW_BUCKET) {
+            cir.setReturnValue(new ItemStack(Items.BUCKET));
+            world.setBlockState(pos, Blocks.POWDER_SNOW_CAULDRON.getDefaultState().with(Properties.LEVEL_3, 3));
         }
     }
 }

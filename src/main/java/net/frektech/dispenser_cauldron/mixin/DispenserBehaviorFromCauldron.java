@@ -66,6 +66,26 @@ public abstract class DispenserBehaviorFromCauldron extends ItemDispenserBehavio
     
                 cir.setReturnValue(stack);
             }
+
+        } else if (block_state.getBlock() == Blocks.POWDER_SNOW_CAULDRON) {
+            if (block_state.get(Properties.LEVEL_3) != 3) { // Check if cauldron is full (Lava can only be full)
+                return;
+            }
+    
+            world.setBlockState(pos, Blocks.CAULDRON.getDefaultState());
+            stack.decrement(1);
+    
+            if (stack.isEmpty())
+            {
+                cir.setReturnValue(new ItemStack(Items.POWDER_SNOW_BUCKET));
+    
+            } else {
+                if (((DispenserBlockEntity)pointer.getBlockEntity()).addToFirstFreeSlot(new ItemStack(Items.POWDER_SNOW_BUCKET)) < 0) {
+                    super.dispenseSilently(pointer, new ItemStack(Items.POWDER_SNOW_BUCKET));
+                }
+    
+                cir.setReturnValue(stack);
+            }
         }
     }
 }
