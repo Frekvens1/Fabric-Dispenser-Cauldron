@@ -9,7 +9,7 @@ Works for both singelplayer and servers. Clients don't need this mod when playin
 
 Now you can finally fully automate that dripstone lava farm! :)
 
-![Usage](https://i.imgur.com/S7IptCJ.gif)
+![Usage](./usage.gif)
 
 ## Overview
 
