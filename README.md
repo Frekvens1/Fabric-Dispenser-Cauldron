@@ -1,10 +1,11 @@
 # Fabric Dispenser Cauldron
 
 ## Usage
-This is a Fabric mod for 1.17.1
+### This is a Fabric mod for 1.17.1
 
 
 Works for both singelplayer and servers. Clients don't need this mod when playing on a server.
+
 Now you can finally fully automate that dripstone lava farm! :)
 
 
