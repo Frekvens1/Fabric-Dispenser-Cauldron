@@ -1,10 +1,16 @@
 # Fabric Dispenser Cauldron
 
 ## Usage
+This is a Fabric mod for 1.17.1
 
-Install it in your mods folder. Works both for singelplayer and for a server. The clients don't need the mod for it to work on a server.
 
-This mod adds the functionality to let dispensers use both buckets and bottles on cauldrons (You can also fill it). This is a feature I've been missing for a while, and was very surprised none had made this for 1.17.1 yet, so here I am. Enjoy!
+Works both for singelplayer and for servers. The clients don't need this mod when playing on a server.
+
+
+This mod lets dispensers use both buckets and bottles with cauldrons (Fill and empty it). This is a feature I've been missing for a while and was very surprised none had made this for 1.17.1 yet (Which I was aware of), so here I am. If you find any bugs, please comment below!
+
+ 
+Enjoy! :)
 
 ## License
 
