@@ -18,8 +18,6 @@ public class BottleDispenserBehaviour extends ItemDispenserBehavior {
     public ItemStack dispenseSilently(BlockPointer pointer, ItemStack stack) {
         World world = pointer.getWorld();
         if (world.isClient) {
-            super.dispenseSilently(pointer, stack);
-            stack.decrement(1);
             return stack;
         }
 
