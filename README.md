@@ -17,6 +17,7 @@ Enjoy! :)
 
 ## CurseForge
 This mod is also hosted on CurseForge!
+
 https://www.curseforge.com/minecraft/mc-mods/fabric-dispenser-cauldron
 
 ## License
