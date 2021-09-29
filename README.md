@@ -1,8 +1,8 @@
 # Fabric Dispenser Cauldron
 
-## Usage
 ### This is a Fabric mod for 1.17.1
 
+## Usage
 
 Works for both singelplayer and servers. Clients don't need this mod when playing on a server.
 
