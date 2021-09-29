@@ -1,20 +1,23 @@
-<p><span style="font-size: 14px;"><strong>This is a Fabric mod for 1.17.1</strong></span></p>
-<p>Works for both singelplayer and servers. Clients don't need this mod when playing on a server.</p>
 
-<p>Now you can finally fully automate that dripstone lava farm! :)</p>
+# Fabric Dispenser Cauldron
+
+### This is a Fabric mod for 1.17.1
+
+## Usage
+
+Works for both singelplayer and servers. Clients don't need this mod when playing on a server.
+
+Now you can finally fully automate that dripstone lava farm! :)
 
 ![Usage](https://i.imgur.com/S7IptCJ.gif)
 
-<p><strong>Overview</strong>:</p>
-<ul>
-<li>Lets dispensers fill empty cauldrons with water or lava from buckets</li>
-<li>Fill bucket if cauldron is full (Water/Lava)</li>
-<li>Fill empty/water cauldrons with water bottles (Increases level by 1)</li>
-<li>Fill glass bottles with water from cauldrons (Decrements level by 1)</li>
-<li>If these actions can't be completed (Already empty or full), it will spit the item out instead</li>
-</ul>
-<p>&nbsp;</p>
-<p>Please feel free to comment!</p>
+## Overview
+
+* Lets dispensers fill empty cauldrons with water or lava from buckets
+* Fill bucket if cauldron is full (Water/Lava)
+* Fill empty/water cauldrons with water bottles (Increases level by 1)
+* Fill glass bottles with water from cauldrons (Decrements level by 1)
+* If these actions can't be completed (Already empty or full), it will spit the item out instead
 
 ## Other places:
 CurseForge:
