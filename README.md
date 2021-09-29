@@ -15,10 +15,14 @@ This mod lets dispensers use both buckets and bottles with cauldrons (Fill and e
  
 Enjoy! :)
 
-## CurseForge
-This mod is also hosted on CurseForge!
+## Other places:
+CurseForge:
 
 https://www.curseforge.com/minecraft/mc-mods/fabric-dispenser-cauldron
+
+Modrinth:
+
+https://modrinth.com/mod/fabric-dispenser-cauldron
 
 ## License
 
