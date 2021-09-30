@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dispenser_cauldron",
+  "version": "${version}",
+
+  "name": "Dispenser Cauldron",
+  "description": "Lets your dispensers finally use buckets and bottles on cauldrons!",
+  "authors": [
+    "Frekvens1"
+  ],
+  "contact": {
+    "homepage": "https://FrekTech.net/",
+    "sources": "https://github.com/Frekvens1/Fabric-Dispenser-Cauldron"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dispenser_cauldron/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.frektech.dispenser_cauldron.Main"
+    ]
+  },
+  "mixins": [
+    "dispenser_cauldron.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

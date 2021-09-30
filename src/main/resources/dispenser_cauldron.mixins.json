@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.frektech.dispenser_cauldron.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ItemDispenserBehaviorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
