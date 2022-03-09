@@ -1,7 +1,7 @@
 
 # Fabric Dispenser Cauldron
 
-### This is a Fabric mod for 1.17.1
+### This is a Fabric mod for 1.17 and above!
 
 ## Usage
 
