@@ -1,6 +1,8 @@
 
 # Fabric Dispenser Cauldron
 
+# This repository have moved to: https://github.com/FabricMods/DispenserCauldron
+
 ### This is a Fabric mod for 1.17 and above!
 
 ## Usage
